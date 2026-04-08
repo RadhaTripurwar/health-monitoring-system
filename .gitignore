@@ -1,0 +1,36 @@
+.gitignore name=.gitignore
+# Virtual Environment
+venv/
+env/
+
+#Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+#IDE
+.vscode/
+.idea/
+
+#Environment variables
+.env
+
+#Logs
+logs/
+*.log
+
+#Database
+database/
+*.db
+
+# Config with secrets
+ Config/secret.yaml
+
+#OS
+.DS_Store
+Thumbs.db
+
+#Coverage
+.coverage
+htmlcov/
+
